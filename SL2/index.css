@@ -1,0 +1,162 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.welcome{
+    margin: auto;
+    background-color: #b5ead7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    vertical-align: auto;
+}
+
+.wrapbutton{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.buttonbox{
+    width: 80px;
+    height: auto;
+    align-content: space-between;
+    margin: 20px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 12px;
+    background-color: #fcfade;
+    padding: 10px;
+    text-align: center;
+}
+
+.minibuttonbox{
+    width: 80px;
+    height: auto;
+    margin: 5px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 12px;
+    background-color: #fcfade;
+    align-content: space-between;
+    padding: 8px;
+    text-align: center;
+}
+
+.regtitle{
+    display: flex;
+    justify-content: center;
+    background-color: #dff2fd;
+    width: auto;
+}
+
+.register{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #dff2fd;
+    height: 100%;
+}
+
+.logintitle{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #fcfade;
+    width: auto;
+}
+
+.login{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #fcfade;
+    align-items: center;
+    height: 100%;
+}
+
+.loginbox{
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #9fdcff;
+    border-radius: 10px;
+}
+
+.header{
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    text-align: center;
+    background-color: #fff9a1;
+    display: flex;
+}
+
+.homebox{
+    margin-left: 800px;
+}
+
+.profilebox{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.homebody{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    /* height: 0; */
+    background-color: #e3e3ff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.headertitle{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #e3e3ff;
+    display: block;
+    font-weight: bold;
+    font-size: large;
+}
+
+.profilebody{
+    height: 100%;
+    flex-direction: row;
+    background-color: #e3e3ff;
+    line-height: 30pt;
+    align-items: center;
+}
+
+table{
+    border-spacing: 20px;
+    justify-content: space-between;
+    text-align: left;
+}
+
+th{
+    width:150px;
+    text-align:left;
+    padding:5px
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonbox:hover{
+    box-shadow: 0 8px 8px 0;
+}
+
+.boldname{
+    font-weight: bold;
+}
